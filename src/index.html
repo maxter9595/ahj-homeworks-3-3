@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="referrer" content="no-referrer">
+      <title>Галерея изображений</title>
+  </head>
+  <body>
+    <div id="app">
+      <form class="image-form">
+        <div>
+          <label for="image-name">Название</label>
+          <input type="text" id="image-name" placeholder="Введите название">
+        </div>
+        <div>
+          <label for="image-url">Ссылка на изображение</label>
+          <input type="text" id="image-url" placeholder="Введите URL">
+        </div>
+        <span class="error-message" style="display: none;"></span>
+        <button type="submit" class="add-button">Добавить</button>
+      </form>
+      <div class="gallery"></div>
+      <button class="download-button"></button>
+    </div>
+  </body>
+</html>
